@@ -4,7 +4,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="categories" />
+    <meta name="description" content="搭建个人博客" />
     <meta name="hexo-theme-A4" content="v1.8.3" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>Haowen Blog</title>
@@ -98,11 +98,7 @@
             
         
             
-                <li><i>
-                    
-                        <a style="color: #4e7dde;" href="/categories/">分类</a>
-                    
-                </i></li>
+                <li><a href="/categories/">分类</a></li>
             
         
     </ul>
@@ -110,30 +106,82 @@
         
                     
                     
-                            <br>
-<span>🔖<i>categories</i></span>
-<ul class="" >
-  
-
-  
-
-  
-
-  
-  
-  
-  
-      
-    
-
-    
-</ul>
-                    
 
                     
                     
                     
                     <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            搭建个人博客
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E4%B8%80%EF%BC%8C%E5%AE%89%E8%A3%85Node-js-git-hexo"><span class="post-toc-text">一，安装Node.js&#x2F;git&#x2F;hexo</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E4%BA%8C%EF%BC%8C%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="post-toc-text">二，初始化博客</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E4%B8%89%EF%BC%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="post-toc-text">三，常用命令</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E5%9B%9B%EF%BC%8C%E4%B8%AA%E6%80%A7%E5%8C%96"><span class="post-toc-text">四，个性化</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E4%BA%94%EF%BC%8CMarkdown%E8%AF%AD%E6%B3%95"><span class="post-toc-text">五，Markdown语法</span></a></li></ol>
+            
+        
+        <h1 id="一，安装Node-js-git-hexo"><a href="#一，安装Node-js-git-hexo" class="headerlink" title="一，安装Node.js&#x2F;git&#x2F;hexo"></a>一，安装Node.js&#x2F;git&#x2F;hexo</h1><p>Node.js下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js</a>  </p>
+<pre><code class="python">npm install -g hexo-cli  
+</code></pre>
+<h1 id="二，初始化博客"><a href="#二，初始化博客" class="headerlink" title="二，初始化博客"></a>二，初始化博客</h1><pre><code>cd xxx\_blog
+hexo init
+</code></pre>
+<h1 id="三，常用命令"><a href="#三，常用命令" class="headerlink" title="三，常用命令"></a>三，常用命令</h1><ul>
+<li>新建一篇文章，默认使用_config.yaml中default_layout参数指定的布局</li>
+</ul>
+<pre><code>hexo new \[layout\] &lt;title&gt;
+</code></pre>
+<ul>
+<li>生成静态文件</li>
+</ul>
+<pre><code>hexo g
+</code></pre>
+<ul>
+<li>启动本地调试服务器</li>
+</ul>
+<pre><code>hexo s
+</code></pre>
+<ul>
+<li>部署到远程网站，部署前请确保已经安装Git插件并已经按照上述完成了_config.yaml中的相关配置</li>
+</ul>
+<pre><code>hexo d
+</code></pre>
+<ul>
+<li>清除缓存文件db.json和已生成的静态文件夹public</li>
+</ul>
+<pre><code>hexo clean
+</code></pre>
+<h1 id="四，个性化"><a href="#四，个性化" class="headerlink" title="四，个性化"></a>四，个性化</h1><p><a target="_blank" rel="noopener" href="https://hexo.io/themes/">Themes</a><br>目前所用：<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4?tab=readme-ov-file">GitHub - HiNinoJay&#x2F;hexo-theme-A4: A hexo theme that looks like an A4 paper.</a>  </p>
+<h1 id="五，Markdown语法"><a href="#五，Markdown语法" class="headerlink" title="五，Markdown语法"></a>五，Markdown语法</h1><p><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/code.html">官方教程</a></p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-02-22</span>
+            
+            
+             
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
                     
                     
                     <div class="footer">
